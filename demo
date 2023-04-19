@@ -1,8 +1,8 @@
 git add css/style.css（添加style文件到暂存区）
-
 git status -sb（获取文件的当前状态）
-
 或： git add .（将当前目录下所有变动文件都加到暂存区）
 git commit -m "xxx"（提交到本地仓库，xxx表示提交的额外信息）
-
 git status -sb（获取文件的当前状态）
+git remote add origin https://github.com/Longhzzz/mycode.git
+git branch -M main
+git push -u origin main
